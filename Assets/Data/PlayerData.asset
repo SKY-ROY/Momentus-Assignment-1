@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b3afa8862624928a9bc9421754dc45, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  m_MaxHealth: 10
+  m_InitialLane: 0
+  m_InitialFaction: 0
+  m_ForwardMovementSpeed: 10
+  m_Materials:
+  - {fileID: 2100000, guid: f4c286ddb05994c3f93df39364ce2f54, type: 2}
+  - {fileID: 2100000, guid: cfe837e6e64454a779ef99bb5abb9d46, type: 2}
+  - {fileID: 2100000, guid: f365279cc20314a2380bfd078a98f705, type: 2}
+  m_LeftBinding:
+    lane: 0
+    xPosition: -1.5
+  m_MidBinding:
+    lane: 1
+    xPosition: 0
+  m_RightBinding:
+    lane: 2
+    xPosition: 1.5
